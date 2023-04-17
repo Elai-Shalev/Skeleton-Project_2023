@@ -12,27 +12,6 @@
         ]
       },
       {
-        "name": "counterTable",
-        "type": "table",
-        "tableName": "countertable", 
-        "connection": "AzureWebJobsStorage",
-        "direction": "in"
-      },
-      {
-        "name": "counterTable",
-        "type": "table",
-        "tableName": "countertable", 
-        "connection": "AzureWebJobsStorage",
-        "direction": "out"
-      },
-      {
-        "type": "eventHub",
-        "name": "testEventHub",
-        "eventHubName": "ioteventhubelamar",
-        "connection": "MyEventHubSendAppSetting",
-        "direction": "out"
-      },
-      {
         "type": "signalR",
         "name": "signalRMessages",
         "hubName": "IotSignalRElamar",
