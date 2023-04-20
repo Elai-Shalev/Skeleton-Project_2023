@@ -2,14 +2,11 @@
     "scriptFile": "__init__.py",
     "bindings": [
       {
-        "authLevel": "anonymous",
-        "type": "eventHub",
+        "type": "eventHubTrigger",
+        "name": "event",
         "direction": "in",
-        "name": "event_req",
-        "methods": [
-          "get",
-          "post"
-        ]
+        "eventHubName": "MyEventHub",
+        "connection": "myEventHubReadConnectionAppSetting"
       },
       {
         "type": "signalR",
