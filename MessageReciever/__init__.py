@@ -36,3 +36,5 @@ def main(event: func.EventHubEvent,
     except Exception as e:
         logging.error(e)
         return func.HttpResponse(f"Something went wrong", status_code=500)
+
+    #testing
