@@ -6,3 +6,10 @@
 /**/obj
 /**/bin
 /**/*.sln.DotSettings.user
+/SF
+/SF2
+/SF3
+/SkeletonCounterFunctions
+/GetCounter
+/IncreaseCounter
+/MessageReciever
